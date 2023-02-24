@@ -7,3 +7,5 @@ The dataset, located in `data/orders.csv`, consists of two columns of timestamps
 In `data_exploration.ipynb` I explore the dataset, analyzing some statistics and drawing conclusions. 
 
 In `script/` there's a Python script that detects any abnormal store closures, as well as a simple model to estimate the number of missed orders during these closures. The script is executed by running `main.py`. Chapter 3 of `data_exploration.ipynb` gives a brief explanation of the thought process behind this script. 
+
+To execute the file in a Docker container, execute `docker_run.sh`.
